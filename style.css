@@ -1,0 +1,21 @@
+.main {
+  width: 500px;
+  margin: 30px auto;
+  border: 2px solid rgb(207, 204, 204);
+  box-shadow: 2px 2px 2px #ccc;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.far {
+  color: orange;
+  float: right;
+}
+
+a {
+  cursor: pointer
+}

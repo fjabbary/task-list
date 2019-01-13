@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Task List</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body>
+
+
+  <div class="main">
+    <h2>Task List</h2>
+    <form>
+      <div class="form-group">
+        <input type="text" id="new-task" placeholder="New Task.." class="form-control">
+        <button class="btn btn-primary">Add Task</button>
+      </div>
+    </form>
+
+
+    <div class="form-group">
+      <input type="text" id="filter-task" placeholder="Filter Task" class="form-control">
+    </div>
+
+    <h3>Tasks</h3>
+    <hr>
+    <ul class="list-group"></ul>
+
+    <button class="btn btn-dark">Clear Task</button>
+
+  </div>
+
+  <script src="app.js"></script>
+
+
+</body>
+
+</html>
